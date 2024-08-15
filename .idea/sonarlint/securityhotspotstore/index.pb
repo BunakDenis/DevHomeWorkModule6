@@ -31,8 +31,6 @@ P
  sql/find_max_projects_client.sql,e\6\e6e0c04cee8ff28ac16ddb67982fd3349db6f171
 T
 $sql/find_youngest_eldest_workers.sql,0\d\0d09b4bb29b88dfe1726c08c568e1e8ae84541a9
-M
-sql/ind_max_salary_worker.sql,9\b\9b12065ee4bc53fee5c7cf11b457d035bdbec31d
 N
 sql/find_max_salary_worker.sql,6\c\6cb6d8d390037ef57ab2320dfc83ad11f1de2843
 L
@@ -126,3 +124,5 @@ Q.idea/sonarlint/securityhotspotstore/9/d/9dbed358d4da94fbb62c82dc8a3a627d1c67a7
 Q.idea/sonarlint/securityhotspotstore/5/3/53b8206cb8132944757daee04f3ce0bd38f13070,6\5\658cf2f17593be5344b85b99d123a2b6a1d94c42
 w
 G.idea/sonarlint/issuestore/5/3/53b8206cb8132944757daee04f3ce0bd38f13070,7\b\7bded4064a1cf55e27c8f6f2cf5e5a4a2218d2bb
+s
+Capp/src/test/java/global/goit/edu/db/DatabaseQueryServiceTests.java,6\b\6be80dbfddeba797519318e3c4ad61cd3922927b

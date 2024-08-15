@@ -20,8 +20,8 @@ dependencies {
     // This dependency is used by the application.
     implementation 'com.google.guava:guava:32.1.1-jre'
 
-    // https://mvnrepository.com/artifact/junit/junit
-    testImplementation group: 'junit', name: 'junit', version: '4.13.2'
+// https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api
+    testImplementation group: 'org.junit.jupiter', name: 'junit-jupiter-api', version: '5.11.0-M2'
 
     // https://mvnrepository.com/artifact/com.h2database/h2
     implementation group: 'com.h2database', name: 'h2', version: '2.2.224'
@@ -43,6 +43,6 @@ application {
     mainClass = 'global.goit.edu.db'
 }
 
-tasks.named('test', Test) {
+test {
     useJUnitPlatform()
 }

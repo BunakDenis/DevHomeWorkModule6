@@ -39,7 +39,8 @@ public class Database {
     }
 
     public ResultSet executeQuery(String sql) {
-        try (Statement st = connection.createStatement()) {
+        try {
+            Statement st = connection.createStatement();
             return st.executeQuery(sql);
         } catch (Exception e) {
             e.printStackTrace();

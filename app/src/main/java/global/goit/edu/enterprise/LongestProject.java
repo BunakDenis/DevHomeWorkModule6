@@ -1,16 +1,17 @@
 package global.goit.edu.enterprise;
 
 import java.time.LocalDate;
+import java.util.Objects;
 
 public class LongestProject {
 
     private String name;
-    private LocalDate monthCount;
+    private long monthCount;
 
     public LongestProject() {
 
     }
-    public LongestProject(String name, LocalDate monthCount) {
+    public LongestProject(String name, long monthCount) {
         this.name = name;
         this.monthCount = monthCount;
     }
@@ -23,11 +24,11 @@ public class LongestProject {
         this.name = name;
     }
 
-    public LocalDate getMonthCount() {
+    public long getMonthCount() {
         return monthCount;
     }
 
-    public void setMonthCount(LocalDate monthCount) {
+    public void setMonthCount(long monthCount) {
         this.monthCount = monthCount;
     }
 
@@ -37,5 +38,13 @@ public class LongestProject {
                 "name='" + name + '\'' +
                 ", monthCount=" + monthCount +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        LongestProject that = (LongestProject) o;
+        return monthCount == that.monthCount && Objects.equals(name, that.name);
     }
 }

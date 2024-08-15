@@ -1,5 +1,5 @@
-select 'project A' as name, period_diff(date_format(finish_date, '%Y%m'), date_format(start_date, '%Y%m')) as month_count
-from project
-group by month_count
-order by month_count desc
-limit 1;
+SELECT 'project A' AS name, DATEDIFF(month, start_date, finish_date) AS month_count
+FROM project
+GROUP BY month_count
+ORDER BY month_count DESC
+LIMIT 1;
