@@ -1,6 +1,0 @@
-{
-  "dbUrl" : "jdbc:h2:./goit_enterprise",
-  "initDbFilePath" : "./sql/init_db.sql",
-  "insertIntoBdFilePath" : "./sql/populate_db.sql",
-  "findLongestProject" : "./sql/find_longest_project.sql"
-}

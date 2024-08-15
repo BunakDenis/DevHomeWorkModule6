@@ -11,10 +11,16 @@ import java.util.Map;
 public class Prefs {
 
     public static final String DB_URL = "dbUrl";
-    public static final String DEFAULT_DB_FILE_PATH = "./sql/DbConfig.json";
+    public static final String TEST_DB_URL = "testDbUrl";
+    public static final String DEFAULT_DB_FILE_PATH =
+            "D:\\Java\\IDEProjects\\Developer\\DevHomeworkModule6\\app\\src\\main\\resources\\sql\\DbConfig.json";
     public static final String INIT_DB_FILE_PATH = "initDbFilePath";
     public static final String INSERT_INTO_BD_FILE_PATH = "insertIntoBdFilePath";
-    public static final String QUERY_FIND_LONGEST_PROJECT = "findLongestProject";
+    public static final String QUERY_FIND_LONGEST_PROJECT_FILE_PATH = "findLongestProjectFilePath";
+    public static final String QUERY_FIND_MAX_PROJECTS_CLIENT_FILE_PATH = "findMaxProjectsClientFilePath";
+    public static final String QUERY_FIND_MAX_SALARY_WORKER_FILE_PATH = "findMaxSalaryWorkerFilePath";
+    public static final String QUERY_FIND_YOUNGEST_ELDEST_WORKERS_FILE_PATH = "findYoungestEldestWorkersFilePath";
+    public static final String QUERY_PRINT_PROJECT_PRICES_FILE_PATH = "printProjectPricesFilePath";
     private Map<String, Object> prefs = new HashMap<>();
 
     public Prefs() {
