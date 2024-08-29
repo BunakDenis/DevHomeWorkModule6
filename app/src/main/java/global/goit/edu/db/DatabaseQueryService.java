@@ -130,5 +130,4 @@ public class DatabaseQueryService {
         }
         projectPrices.forEach(System.out::println);
     }
-
 }
