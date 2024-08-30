@@ -1,0 +1,1 @@
+INSERT INTO WORKER (name, birthday, level, salary) VALUES (?, ?, ?, ?);

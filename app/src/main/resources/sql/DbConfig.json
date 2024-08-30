@@ -3,9 +3,14 @@
   "testDbUrl" : "jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1",
   "initDbFilePath" : "D:\\Java\\IDEProjects\\Developer\\DevHomeworkModule6\\app\\src\\main\\resources\\sql\\init_db.sql",
   "insertIntoBdFilePath" : "D:\\Java\\IDEProjects\\Developer\\DevHomeworkModule6\\app\\src\\main\\resources\\sql\\populate_db.sql",
+  "insertIntoBdWorkerFilePath" : "D:\\Java\\IDEProjects\\Developer\\DevHomeworkModule6\\app\\src\\main\\resources\\sql\\insert_into_worker.sql",
+  "insertIntoBdClientFilePath" : "D:\\Java\\IDEProjects\\Developer\\DevHomeworkModule6\\app\\src\\main\\resources\\sql\\insert_into_client.sql",
+  "insertIntoBdProjectFilePath" : "D:\\Java\\IDEProjects\\Developer\\DevHomeworkModule6\\app\\src\\main\\resources\\sql\\insert_into_project.sql",
+  "insertIntoBdProjectWorkerFilePath" : "D:\\Java\\IDEProjects\\Developer\\DevHomeworkModule6\\app\\src\\main\\resources\\sql\\insert_into_project_worker.sql",
   "findLongestProjectFilePath" : "D:\\Java\\IDEProjects\\Developer\\DevHomeworkModule6\\app\\src\\main\\resources\\sql\\find_longest_project.sql",
   "findMaxProjectsClientFilePath" : "D:\\Java\\IDEProjects\\Developer\\DevHomeworkModule6\\app\\src\\main\\resources\\sql\\find_max_projects_client.sql",
   "findMaxSalaryWorkerFilePath" : "D:\\Java\\IDEProjects\\Developer\\DevHomeworkModule6\\app\\src\\main\\resources\\sql\\find_max_salary_worker.sql",
   "findYoungestEldestWorkersFilePath" : "D:\\Java\\IDEProjects\\Developer\\DevHomeworkModule6\\app\\src\\main\\resources\\sql\\find_youngest_eldest_workers.sql",
   "printProjectPricesFilePath" : "D:\\Java\\IDEProjects\\Developer\\DevHomeworkModule6\\app\\src\\main\\resources\\sql\\print_project_prices.sql"
+
 }

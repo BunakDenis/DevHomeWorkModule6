@@ -13,7 +13,7 @@ public class Database {
         try {
             connection = DriverManager.getConnection(
                     new Prefs()
-                            .getPrefValue(Prefs.DB_URL));
+                            .getPrefValue(Prefs.TEST_DB_URL));
         } catch (SQLException e) {
             e.printStackTrace();
         }

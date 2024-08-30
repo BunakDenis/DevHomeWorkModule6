@@ -16,6 +16,10 @@ public class Prefs {
             "D:\\Java\\IDEProjects\\Developer\\DevHomeworkModule6\\app\\src\\main\\resources\\sql\\DbConfig.json";
     public static final String INIT_DB_FILE_PATH = "initDbFilePath";
     public static final String INSERT_INTO_BD_FILE_PATH = "insertIntoBdFilePath";
+    public static final String INSERT_INTO_BD_WORKER_FILE_PATH = "insertIntoBdWorkerFilePath";
+    public static final String INSERT_INTO_BD_CLIENT_FILE_PATH = "insertIntoBdClientFilePath";
+    public static final String INSERT_INTO_BD_PROJECT_FILE_PATH = "insertIntoBdProjectFilePath";
+    public static final String INSERT_INTO_BD_PROJECT_WORKER_FILE_PATH = "insertIntoBdProjectWorkerFilePath";
     public static final String QUERY_FIND_LONGEST_PROJECT_FILE_PATH = "findLongestProjectFilePath";
     public static final String QUERY_FIND_MAX_PROJECTS_CLIENT_FILE_PATH = "findMaxProjectsClientFilePath";
     public static final String QUERY_FIND_MAX_SALARY_WORKER_FILE_PATH = "findMaxSalaryWorkerFilePath";
