@@ -11,7 +11,6 @@ public class DatabaseInsertService {
 
     private final Connection conn;
     private PreparedStatement insertWorkerStatement;
-    private PreparedStatement insertClientStatement;
     private PreparedStatement insertProjectStatement;
     private PreparedStatement insertProjectWorkerStatement;
 
@@ -22,12 +21,6 @@ public class DatabaseInsertService {
             insertWorkerStatement = conn.prepareStatement(
                     new SqlFileReader().read(
                             new Prefs().getPrefValue(Prefs.INSERT_INTO_BD_WORKER_FILE_PATH)
-                    )
-            );
-
-            insertClientStatement = conn.prepareStatement(
-                    new SqlFileReader().read(
-                            new Prefs().getPrefValue(Prefs.INSERT_INTO_BD_CLIENT_FILE_PATH)
                     )
             );
 
@@ -57,20 +50,6 @@ public class DatabaseInsertService {
             insertWorkerStatement.setInt(4, salary);
 
             return (insertWorkerStatement.executeUpdate() == 1);
-
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        return false;
-    }
-
-    public boolean createClient(String name) {
-
-        try {
-
-            insertClientStatement.setString(1, name);
-
-            return (insertClientStatement.executeUpdate() == 1);
 
         } catch (Exception e) {
             e.printStackTrace();

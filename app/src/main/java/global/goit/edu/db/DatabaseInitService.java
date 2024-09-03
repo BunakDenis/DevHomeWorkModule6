@@ -1,11 +1,19 @@
 package global.goit.edu.db;
 
 import global.goit.edu.prefs.Prefs;
+import org.flywaydb.core.Flyway;
 
 public class DatabaseInitService {
     public static void main(String[] args) {
-        String sql = new SqlFileReader()
-                .read(new Prefs().getPrefValue(Prefs.INIT_DB_FILE_PATH));
-        Database.getInstance().executeUpdate(sql);
+        Flyway flyway = Flyway
+                .configure()
+                .dataSource(
+                        new Prefs().getPrefValue(Prefs.TEST_DB_URL),
+                        null,
+                        null
+                )
+                .load();
+
+        flyway.migrate();
     }
 }

@@ -1,3 +1,7 @@
 
+
+java:S2095+"GUse try-with-resources or close this "Statement" in a "finally" clause.(‰ğ—Çıÿÿÿÿ8áÛ·›2J$411e6dba-d54e-41dd-943f-5e566a808438
+
+java:S2095 "GUse try-with-resources or close this "Statement" in a "finally" clause.(‰ğ—Çıÿÿÿÿ8»ÈØ·›2J$e34d44b7-5586-4932-b42d-1a01d5eb5f7e
 á
-java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(Ñ°Ù®şÿÿÿÿ8ÃÙ ó™2J$fafa9946-74f3-44bd-8e1d-a2b157c337c0
+java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(Ñ°Ù®şÿÿÿÿ8½ÈØ·›2J$515b7030-826e-4f19-9709-b6d5732a79c8

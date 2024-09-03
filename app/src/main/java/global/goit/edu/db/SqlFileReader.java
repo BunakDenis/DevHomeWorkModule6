@@ -9,7 +9,10 @@ public class SqlFileReader implements Reader {
     @Override
     public String read(String fileName) {
         try {
-            return Files.readString(Path.of(fileName));
+            String sql = Files.readString(
+                    Path.of(fileName)
+            );
+            return sql;
         } catch (Exception e) {
             e.printStackTrace();
         }

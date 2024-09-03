@@ -1,1 +1,1 @@
-INSERT INTO client (name) VALUES (?);
+INSERT INTO client (name) VALUES (?)

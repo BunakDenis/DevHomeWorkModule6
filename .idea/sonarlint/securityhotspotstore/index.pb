@@ -15,8 +15,6 @@ g
 7app/src/main/java/global/goit/edu/db/DataBaseTests.java,d\5\d5d211b5b9d7c9fd5765206d4f3ea6ba37b4c6bc
 m
 =app/src/main/java/global/goit/edu/db/DatabaseInitService.java,5\1\519519538a2ada1c71dba910bf1524ed32dd636f
-q
-Aapp/src/main/java/global/goit/edu/db/DatabasePopulateService.java,b\b\bb1d121c4bed325e8aaf3289f7749e3c83f0d857
 n
 >app/src/main/java/global/goit/edu/db/DatabaseQueryService.java,5\d\5dd2d935ad1f19618dd43a3c16ed7fa7a05f18ae
 p
@@ -182,3 +180,9 @@ t
 Dapp/src/test/java/global/goit/edu/db/DatabaseInsertServiceTests.java,9\d\9d055d24c6e42c626221b4331e89221ea07dde53
 m
 =app/src/main/java/global/goit/edu/enterprise/WorkerLevel.java,1\8\18cf2bb669c66a9dbc426ec8607aabbd9828676f
+g
+7app/src/main/java/global/goit/edu/db/ClientService.java,9\f\9fbb012bb2f5720afeed5b533eef9fc107ada165
+h
+8app/src/main/java/global/goit/edu/enterprise/Client.java,1\d\1db24cb3fe19d6bce8bb493502befa536a1b9e14
+l
+<app/src/test/java/global/goit/edu/db/ClientServiceTests.java,d\5\d5324eff53b58409553bc3d9eef7b1d4be6c4c32

@@ -1,6 +1,15 @@
 
-ƒ	java:S125"<This block of commented-out lines of code should be removed.(üÎ˜òÿÿÿÿÿ8À¤Ï±•2J$efedd555-542a-4ac6-9026-76ca6c53e9c0
-m	java:S106"+Replace this use of System.out by a logger.(°˜Ä‡8¾Ğİ±•2J$c34dac7b-2652-4e69-92aa-76798d4d7f62
-r	java:S106"+Replace this use of System.out by a logger.(…¸Œşÿÿÿÿ8ÀĞİ±•2J$61ca890a-967a-456a-ac57-7146647b27ed
-m	java:S106"+Replace this use of System.out by a logger.(›ìŒ·8ÁĞİ±•2J$5767c6e0-764f-4fea-bda8-bbb93a24988c
-r	java:S106"+Replace this use of System.out by a logger.(Èî”¥úÿÿÿÿ8ó‰á±•2J$d71c0c36-3b68-4bea-b5fb-73ea8907602f
+ƒ	java:S125"<This block of commented-out lines of code should be removed.(ã¶ş¨şÿÿÿÿ8²ê¬Â›2J$422c8610-36ff-42bd-be8c-ae56b590d9d8
+
+java:S1128"FRemove this unused import 'global.goit.edu.enterprise.LongestProject'.(‹ı©íıÿÿÿÿ8²ê¬Â›2J$c7763c9c-ce9a-4504-bfa6-92971b6628cf
+‘
+java:S1128"IRemove this unused import 'global.goit.edu.enterprise.MaxProjectsClient'.(ğ›Õšÿÿÿÿÿ8³ê¬Â›2J$24830ae3-8ca2-4598-9476-eb73d5725542
+Š
+java:S1128"GRemove this unused import 'global.goit.edu.enterprise.MaxSalaryWorker'.(ƒ³¯‰8³ê¬Â›2J$3ab97213-354f-451e-b536-437a4e19673d
+”
+java:S1128"LRemove this unused import 'global.goit.edu.enterprise.YoungestEldestWorker'.( µÏïøÿÿÿÿ8³ê¬Â›2J$74a02047-69a5-4e3e-b0f8-8a4bff918883
+q
+java:S1128	"/Remove this unused import 'java.sql.ResultSet'.(ˆóÚw8Ó¯§Â›2J$a6bec084-5819-4eeb-b408-ca3279fb7ed7
+s
+java:S1128
+"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8´ê¬Â›2J$6da27009-4e5e-405b-8727-3a57628ba2c7

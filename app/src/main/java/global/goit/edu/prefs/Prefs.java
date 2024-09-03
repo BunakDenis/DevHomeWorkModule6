@@ -10,14 +10,15 @@ import java.util.Map;
 
 public class Prefs {
 
-    public static final String DB_URL = "dbUrl";
-    public static final String TEST_DB_URL = "testDbUrl";
     public static final String DEFAULT_DB_FILE_PATH =
             "D:\\Java\\IDEProjects\\Developer\\DevHomeworkModule6\\app\\src\\main\\resources\\sql\\DbConfig.json";
-    public static final String INIT_DB_FILE_PATH = "initDbFilePath";
-    public static final String INSERT_INTO_BD_FILE_PATH = "insertIntoBdFilePath";
+    public static final String DB_URL = "dbUrl";
+    public static final String TEST_DB_URL = "testDbUrl";
     public static final String INSERT_INTO_BD_WORKER_FILE_PATH = "insertIntoBdWorkerFilePath";
     public static final String INSERT_INTO_BD_CLIENT_FILE_PATH = "insertIntoBdClientFilePath";
+    public static final String SELECT_FROM_BD_CLIENT_BY_NAME_FILE_PATH = "selectFromBDClientByNameFilePath";
+    public static final String SELECT_FROM_BD_CLIENT_BY_ID_FILE_PATH = "selectFromBDClientByIdFilePath";
+    public static final String UPDATE_CLIENT_NAME_FROM_BD_BY_ID_FILE_PATH = "updateClientNameFromBdByIdFilePath";
     public static final String INSERT_INTO_BD_PROJECT_FILE_PATH = "insertIntoBdProjectFilePath";
     public static final String INSERT_INTO_BD_PROJECT_WORKER_FILE_PATH = "insertIntoBdProjectWorkerFilePath";
     public static final String QUERY_FIND_LONGEST_PROJECT_FILE_PATH = "findLongestProjectFilePath";

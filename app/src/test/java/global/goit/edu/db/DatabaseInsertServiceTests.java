@@ -12,10 +12,14 @@ import java.time.LocalDate;
 public class DatabaseInsertServiceTests {
 
     DatabaseInsertService dbInsertServ;
+    ClientService clServ;
 
     @BeforeEach
     public void BeforeEach() {
         this.dbInsertServ = new DatabaseInsertService(
+                Database.getInstance()
+        );
+        this.clServ = new ClientService(
                 Database.getInstance()
         );
     }
@@ -42,24 +46,10 @@ public class DatabaseInsertServiceTests {
     }
 
     @Test
-    public void testThatMethodCreateClientWorkOk() {
-
-        //Given
-        boolean expected = true;
-
-        //When
-        boolean actual = dbInsertServ.createClient("GoIT");
-
-        //Then
-        Assertions.assertEquals(expected, actual);
-
-    }
-
-    @Test
     public void testThatMethodCreateProjectWorkOk() {
 
         //Given
-        dbInsertServ.createClient("GoIT");
+        clServ.create("GoIT");
         boolean expected = true;
 
         //When
@@ -84,7 +74,7 @@ public class DatabaseInsertServiceTests {
                 WorkerLevel.SENIOR,
                 3800
         );
-        dbInsertServ.createClient("Tesla");
+        clServ.create("Tesla");
         dbInsertServ.createProject(
                 1,
                 Date.valueOf(LocalDate.now().minusYears(2)),

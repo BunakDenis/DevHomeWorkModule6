@@ -23,7 +23,6 @@ public class DatabaseQueryServiceTests {
     @BeforeAll
     public static void BeforeAll() {
         DatabaseInitService.main(null);
-        DatabasePopulateService.main(null);
     }
 
     @Test
