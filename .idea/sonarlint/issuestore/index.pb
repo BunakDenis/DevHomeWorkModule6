@@ -35,8 +35,6 @@ A
 Å
 Q.idea/sonarlint/securityhotspotstore/5/1/519519538a2ada1c71dba910bf1524ed32dd636f,c\a\cac6b50efeb92baf9f5694251b1c29a7f004c824
 Å
-Q.idea/sonarlint/securityhotspotstore/b/b/bb1d121c4bed325e8aaf3289f7749e3c83f0d857,f\b\fb28a6d2ae1a136c4250e5becab4fec5084306a3
-Å
 Q.idea/sonarlint/securityhotspotstore/5/d/5dd2d935ad1f19618dd43a3c16ed7fa7a05f18ae,d\e\de4a8409f4a0b472ad5fd30b5b702b008a4c4796
 Å
 Q.idea/sonarlint/securityhotspotstore/2/9/29c4538e75fe583ded9e49eb4349696b594e9e31,e\4\e42429e4fbe47636776c23eeda8f8b9110d9caa1
@@ -111,8 +109,6 @@ G.idea/sonarlint/issuestore/7/5/750e9ffe7f71d9388a6f01e48f76a254475b376e,2\5\25
 Å
 Q.idea/sonarlint/securityhotspotstore/f/b/fbe448ebfc3eb2d4e308f6b8b043666f5b57235e,2\a\2a357145b04aeee0545d8bc616c6d89a975ff771
 Å
-Q.idea/sonarlint/securityhotspotstore/f/b/fb28a6d2ae1a136c4250e5becab4fec5084306a3,3\4\3493c9df7137d3c88162f3558d49907e95259658
-Å
 Q.idea/sonarlint/securityhotspotstore/f/7/f7819ea138c33fec28e7e536cb2de34db38fc121,e\5\e5babc9c4e98545e8c1fa7856f821fec6cf0d876
 w
 G.idea/sonarlint/issuestore/9/a/9aed88f31eac276604c6355c1adcc0bce1f80fd6,0\1\0188cc1adb7d21a369f63788309ba8ab137ed687
@@ -151,8 +147,6 @@ Q.idea/sonarlint/securityhotspotstore/3/c/3c8c56407c35e5f5ebbd6c7250a79af8128a13
 Å
 Q.idea/sonarlint/securityhotspotstore/7/5/750e9ffe7f71d9388a6f01e48f76a254475b376e,3\7\3728430129c3394aa728abc9502c140bede552b4
 w
-G.idea/sonarlint/issuestore/f/b/fb28a6d2ae1a136c4250e5becab4fec5084306a3,6\8\685857b9c210cafb0c683ba352a992b78d8a8581
-w
 G.idea/sonarlint/issuestore/f/b/fbe448ebfc3eb2d4e308f6b8b043666f5b57235e,5\2\52114fdaa426e9b83a3c5df4e11c4f0ebbcd814b
 w
 G.idea/sonarlint/issuestore/f/7/f7819ea138c33fec28e7e536cb2de34db38fc121,6\7\67fa304b8cddf1fed80b91f5b705d64cb3dab32a
@@ -186,3 +180,5 @@ h
 8app/src/main/java/global/goit/edu/enterprise/Client.java,1\d\1db24cb3fe19d6bce8bb493502befa536a1b9e14
 l
 <app/src/test/java/global/goit/edu/db/ClientServiceTests.java,d\5\d5324eff53b58409553bc3d9eef7b1d4be6c4c32
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d

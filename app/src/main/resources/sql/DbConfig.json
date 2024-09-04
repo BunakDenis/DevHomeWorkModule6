@@ -6,6 +6,8 @@
   "selectFromBDClientByNameFilePath" : "D:\\Java\\IDEProjects\\Developer\\DevHomeworkModule6\\app\\src\\main\\resources\\sql\\select_from_client_by_name.sql",
   "selectFromBDClientByIdFilePath" : "D:\\Java\\IDEProjects\\Developer\\DevHomeworkModule6\\app\\src\\main\\resources\\sql\\select_from_client_by_id.sql",
   "updateClientNameFromBdByIdFilePath" : "D:\\Java\\IDEProjects\\Developer\\DevHomeworkModule6\\app\\src\\main\\resources\\sql\\update_client_name_by_id.sql",
+  "deleteClientFromBdByIdFilePath" : "D:\\Java\\IDEProjects\\Developer\\DevHomeworkModule6\\app\\src\\main\\resources\\sql\\delete_client_by_id.sql",
+  "selectAllClientsFromBdFilePath" : "D:\\Java\\IDEProjects\\Developer\\DevHomeworkModule6\\app\\src\\main\\resources\\sql\\select_all_clients.sql",
   "insertIntoBdProjectFilePath" : "D:\\Java\\IDEProjects\\Developer\\DevHomeworkModule6\\app\\src\\main\\resources\\sql\\insert_into_project.sql",
   "insertIntoBdProjectWorkerFilePath" : "D:\\Java\\IDEProjects\\Developer\\DevHomeworkModule6\\app\\src\\main\\resources\\sql\\insert_into_project_worker.sql",
   "findLongestProjectFilePath" : "D:\\Java\\IDEProjects\\Developer\\DevHomeworkModule6\\app\\src\\main\\resources\\sql\\find_longest_project.sql",

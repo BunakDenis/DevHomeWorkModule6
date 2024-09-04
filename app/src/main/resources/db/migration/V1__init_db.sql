@@ -15,18 +15,18 @@ name VARCHAR(1000) CHECK (LENGTH(name) >= 2) NOT NULL
 );
 
 CREATE TABLE IF NOT EXISTS project (
-id IDENTITY PRIMARY KEY,
+id IDENTITY,
 client_id INT,
 start_date DATE,
 finish_date DATE,
 PRIMARY KEY (id),
-FOREIGN KEY (client_id) REFERENCES client(id)
+FOREIGN KEY (client_id) REFERENCES client(id) ON DELETE CASCADE ON UPDATE CASCADE
 );
 
 CREATE TABLE IF NOT EXISTS project_worker (
 project_id INT,
 worker_id INT,
 PRIMARY KEY (project_id, worker_id),
-FOREIGN KEY (project_id) REFERENCES project(id),
+FOREIGN KEY (project_id) REFERENCES project(id) ON DELETE CASCADE ON UPDATE CASCADE,
 FOREIGN KEY (worker_id) REFERENCES worker(id)
 );

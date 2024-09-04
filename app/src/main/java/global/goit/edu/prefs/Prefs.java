@@ -19,6 +19,8 @@ public class Prefs {
     public static final String SELECT_FROM_BD_CLIENT_BY_NAME_FILE_PATH = "selectFromBDClientByNameFilePath";
     public static final String SELECT_FROM_BD_CLIENT_BY_ID_FILE_PATH = "selectFromBDClientByIdFilePath";
     public static final String UPDATE_CLIENT_NAME_FROM_BD_BY_ID_FILE_PATH = "updateClientNameFromBdByIdFilePath";
+    public static final String DELETE_CLIENT_FROM_BD_BY_ID_FILE_PATH = "deleteClientFromBdByIdFilePath";
+    public static final String SELECT_ALL_CLIENTS_FROM_BD_FILE_PATH = "selectAllClientsFromBdFilePath";
     public static final String INSERT_INTO_BD_PROJECT_FILE_PATH = "insertIntoBdProjectFilePath";
     public static final String INSERT_INTO_BD_PROJECT_WORKER_FILE_PATH = "insertIntoBdProjectWorkerFilePath";
     public static final String QUERY_FIND_LONGEST_PROJECT_FILE_PATH = "findLongestProjectFilePath";
